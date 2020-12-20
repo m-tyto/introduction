@@ -1,0 +1,77 @@
+body{
+    text-align: center;
+    font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+.document{
+    color: rgb(36, 2, 1);
+}
+
+h1{
+    margin-left: 40px;
+    padding: 20px;
+    font-size: 40px;
+    letter-spacing: 7px;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.value{
+    margin-left: 40px;
+    font-size: 25px;
+    padding: 5px 10px;
+}
+
+.element{
+    margin-bottom: 30px;
+}
+
+.header{
+    height: 30px;
+    width: 100%;
+    margin: -10px;
+    padding: 15px;
+}
+
+ul{
+    margin-right: 70px;
+    list-style: none;
+}
+
+.sns{
+    float: right;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    opacity: 0;
+    border-radius: 50%; 
+}
+
+.header:hover .sns{
+    opacity: 0.8;
+}
+
+body{
+    background-image: url("photo/sunset.jpeg");
+    background-size: cover;
+    background-color: rgba(206, 194, 194,0.7);
+    background-blend-mode: lighten;
+    transition: background-image 2.5S ease;
+}
+
+#loading{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(210, 219, 129);
+    position: fixed;
+}
+
+.msg{
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 500px;
+}
+
+
+
