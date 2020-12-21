@@ -6,7 +6,7 @@
     document.getElementById("loading").style.display = "none";
   }
 
-  setTimeout(loading,5000);
+  setTimeout(loading,3000);
 
   const pics = ["photo/friend.jpg","photo/sunset.jpeg","photo/hakone.mont.jpeg","photo/isigaki_hotel.JPG","photo/isigaki_sea.JPG","photo/karaokescore.jpeg","photo/masaru.JPG","photo/snowboard.JPG"];
   let num = 0;
