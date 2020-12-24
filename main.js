@@ -16,7 +16,7 @@
       document.querySelector("body").style.backgroundImage = "url(" + pics[num] + ")";
   }
 
-  setInterval(slideshow, 13000);    
+  setInterval(slideshow, 13000);
 }
    
     
